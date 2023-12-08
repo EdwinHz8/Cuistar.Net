@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Cuistar.Models.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreProducto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescripcionProducto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioUnitario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Trial757)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCategoriaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTallasNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoproduNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdUnidadmedidaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreProducto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescripcionProducto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioUnitario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Imagen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trial757)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCategoriaNavigation.IdCategoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTallasNavigation.IdTallas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoproduNavigation.IdTipoprodu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdUnidadmedidaNavigation.IdUnidadmedida)
+            </td>
+            <td>
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.IdProductos">Edit</a> |
+                    <a asp-action="Details" class="btn btn-primary"  asp-route-id="@item.IdProductos">Details</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.IdProductos">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
