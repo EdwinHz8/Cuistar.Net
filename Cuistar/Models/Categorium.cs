@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Cuistar.Models;
+﻿namespace Cuistar.Models;
 
 /// <summary>
 /// TRIAL

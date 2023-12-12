@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Cuistar.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace Cuistar.Controllers
 {

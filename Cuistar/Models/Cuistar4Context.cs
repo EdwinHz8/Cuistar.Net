@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Cuistar.Models;
 
@@ -771,12 +769,7 @@ public partial class Cuistar4Context : DbContext
                 .IsUnicode(false)
                 .HasComment("TRIAL")
                 .HasColumnName("telefono");
-            entity.Property(e => e.Trial780)
-                .HasMaxLength(1)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasComment("TRIAL")
-                .HasColumnName("TRIAL780");
+          
 
             entity.HasOne(d => d.IdCiudadNavigation).WithMany(p => p.Usuarios)
                 .HasForeignKey(d => d.IdCiudad)

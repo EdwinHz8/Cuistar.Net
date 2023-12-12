@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EdHz\\source\\repos\\Cuistar\\Cuistar\\Cuistar.csproj": {}
+    "C:\\Users\\EdHz\\Desktop\\.Net\\Cuistar\\Cuistar\\Cuistar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EdHz\\source\\repos\\Cuistar\\Cuistar\\Cuistar.csproj": {
+    "C:\\Users\\EdHz\\Desktop\\.Net\\Cuistar\\Cuistar\\Cuistar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EdHz\\source\\repos\\Cuistar\\Cuistar\\Cuistar.csproj",
+        "projectUniqueName": "C:\\Users\\EdHz\\Desktop\\.Net\\Cuistar\\Cuistar\\Cuistar.csproj",
         "projectName": "Cuistar",
-        "projectPath": "C:\\Users\\EdHz\\source\\repos\\Cuistar\\Cuistar\\Cuistar.csproj",
+        "projectPath": "C:\\Users\\EdHz\\Desktop\\.Net\\Cuistar\\Cuistar\\Cuistar.csproj",
         "packagesPath": "C:\\Users\\EdHz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EdHz\\source\\repos\\Cuistar\\Cuistar\\obj\\",
+        "outputPath": "C:\\Users\\EdHz\\Desktop\\.Net\\Cuistar\\Cuistar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EdHz\\AppData\\Roaming\\NuGet\\NuGet.Config",

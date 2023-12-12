@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 
 namespace Cuistar.Models;
@@ -58,7 +56,7 @@ public partial class Usuario
     /// <summary>
     /// TRIAL
     /// </summary>
-    public string? Trial780 { get; set; }
+
 
     [Display(Name = "Id_Ciudad")]
     public virtual Ciudad IdCiudadNavigation { get; set; } = null!;

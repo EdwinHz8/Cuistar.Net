@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Cuistar.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Cuistar.Models;
 
 namespace Cuistar.Controllers
 {
@@ -60,11 +56,11 @@ namespace Cuistar.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdUsuario,Nombres,Apellidos,Correo,Contrasena,Telefono,IdRoll,IdCiudad,Cedula,Trial780")] Usuario usuario)
         {
-            
-                _context.Add(usuario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-        
+
+            _context.Add(usuario);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: Usuarios/Edit/5
@@ -116,7 +112,7 @@ namespace Cuistar.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-      
+
         }
 
         // GET: Usuarios/Delete/5

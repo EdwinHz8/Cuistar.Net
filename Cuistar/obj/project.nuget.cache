@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TslLtQbFGaemI3TBh+p0SVOunFNrfEp/chz30pUaIBGZ1xCX3uMLa0d90hfjTfhKhrrC0YcXj2FAa6UdFgtXNA==",
+  "dgSpecHash": "4M/E8GM8c37vBF/IRPhuRG6H+ajhoelZBddDqBvI32dGO5YFCZb9wTtfa3jbX/Hnstp6y4CZ28tP4hv3AjTBBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EdHz\\source\\repos\\Cuistar\\Cuistar\\Cuistar.csproj",
+  "projectFilePath": "C:\\Users\\EdHz\\Desktop\\.Net\\Cuistar\\Cuistar\\Cuistar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EdHz\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\EdHz\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
